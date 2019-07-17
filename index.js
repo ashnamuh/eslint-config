@@ -13,6 +13,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'comma-dangle': ['error', 'only-multiline'],
     'comma-spacing': ['error', { 'before': false, 'after': true }],
-    'key-spacing': ['error', { 'beforeColon': false }]
+    'key-spacing': ['error', { 'beforeColon': false }],
+    'no-undef': 'error'
   },
 }
