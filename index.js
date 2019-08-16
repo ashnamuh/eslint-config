@@ -14,6 +14,7 @@ module.exports = {
     'comma-dangle': ['error', 'only-multiline'],
     'comma-spacing': ['error', { 'before': false, 'after': true }],
     'key-spacing': ['error', { 'beforeColon': false }],
-    'no-undef': 'error'
+    'no-undef': 'error',
+    'space-before-function-paren': ['error', 'never']
   },
 }
